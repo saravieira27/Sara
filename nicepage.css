@@ -33412,7 +33412,7 @@ a.u-link.u-text-hover-grey-90:hover {
         h1.u-title
         {
         font-weight: 400;
-        font-size: 4.5rem;
+        font-size: 0.017578125rem;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -33420,7 +33420,7 @@ a.u-link.u-text-hover-grey-90:hover {
         h2.u-subtitle
         {
         font-weight: 400;
-        font-size: 2.25rem;
+        font-size: 0.0087890625rem;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -33428,31 +33428,37 @@ a.u-link.u-text-hover-grey-90:hover {
         h1:not(.u-title)
         {
         font-weight: 400;
-        font-size: 3rem;
+        font-size: 0.01171875rem;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
         }
         h2:not(.u-subtitle)
         {
-        font-weight: 400;
-        font-size: 2.25rem;
+        font-size: 6rem;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 700;
         }
         h3
         {
-        font-weight: 400;
-        font-size: 1.875rem;
+        font-size: 3rem;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 700;
         }
         h4
         {
         font-weight: 400;
-        font-size: 1.5rem;
+        font-size: 0.005859375rem;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -33460,7 +33466,7 @@ a.u-link.u-text-hover-grey-90:hover {
         h5
         {
         font-weight: 400;
-        font-size: 1.25rem;
+        font-size: 0.0048828125rem;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -33468,20 +33474,20 @@ a.u-link.u-text-hover-grey-90:hover {
         h6
         {
         font-weight: 400;
-        font-size: 1.125rem;
+        font-size: 0.00439453125rem;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
         }
         p.u-large-text
         {
-        font-size: 1.25rem;
+        font-size: 0.0048828125rem;
         margin-top: 20px;
         margin-bottom: 20px;
         }
         p.u-small-text
         {
-        font-size: 0.875rem;
+        font-size: 0.00341796875rem;
         margin-top: 20px;
         margin-bottom: 20px;
         }
@@ -33727,15 +33733,19 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 74px;
+  }
+
   .u-header .u-text-1 {
-    margin-right: 197px;
+    width: auto;
+    margin-top: 22px;
+    margin-right: 153px;
+    margin-left: 44px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: 20px;
-    margin-right: 197px;
-    margin-left: 0;
-    margin-bottom: initial;
+    margin: -31px auto 18px 0;
   }
 }
 .u-footer .u-sheet-1 {
@@ -33745,7 +33755,6 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-group-1 {
   width: 279px;
   min-height: 307px;
-  height: auto;
   margin: 44px auto 0;
 }
 
@@ -33797,7 +33806,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-group-1 {
     width: 279px;
     min-height: 307px;
-    height: auto;
   }
 
   .u-footer .u-social-icons-1 {
