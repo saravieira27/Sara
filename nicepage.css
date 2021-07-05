@@ -33808,22 +33808,6 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 279px;
     min-height: 307px;
   }
-
-  .u-footer .u-icon-1 {
-    color: rgb(0, 191, 248) !important;
-  }
-
-  .u-footer .u-icon-2 {
-    color: rgb(255, 255, 255) !important;
-  }
-
-  .u-footer .u-icon-3 {
-    color: rgb(255, 255, 255) !important;
-  }
-
-  .u-footer .u-icon-4 {
-    color: rgb(255, 255, 255) !important;
-  }
 }
 
 @media (max-width: 767px) {
@@ -33842,10 +33826,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-text-1 {
     font-size: 6rem;
     width: auto;
-  }
-
-  .u-footer .u-icon-6 {
-    color: rgb(219, 83, 75) !important;
   }
 }
 
