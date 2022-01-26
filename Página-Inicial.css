@@ -643,7 +643,7 @@
 
 @media (max-width: 575px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 148px;
+    min-height: 943px;
   }
 }.u-section-6 {
   background-image: none;
@@ -1711,6 +1711,7 @@
 .u-section-12 .u-custom-html-1 {
   min-height: 485px;
   width: 570px;
+  animation-duration: 2500ms;
   margin: 0;
 }
 
